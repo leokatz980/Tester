@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configStruct>
+   <udpBufferLength>1560</udpBufferLength>   
+   <Rstart_m>5</Rstart_m>
+   <startToStop_m>2.5</startToStop_m>
+   <PRF_Div>16</PRF_Div>
+   <transmitGain>3</transmitGain>
+   <PPS_Motion>3</PPS_Motion> <!--7 is original-->
+   <PPS_Posture>5</PPS_Posture>
+   <PPS_Resp>100</PPS_Resp>
+   <iterations>64</iterations>
+   <FPS_Motion>350</FPS_Motion>
+   <FPS_Posture>250</FPS_Posture>
+   <FPS_Resp>10</FPS_Resp>
+   <DAC_min>949</DAC_min>
+   <DAC_max>1100</DAC_max>
+   <Tzero_ns>1.333</Tzero_ns>
+   <motionTime>0.1</motionTime> <!-- seconds -->
+   <respTime>20</respTime> <!-- seconds -->
+   <respTimeShort>4</respTimeShort> <!-- seconds -->
+   <NscansPosture>64</NscansPosture>
+   <MotionBaseLine>56</MotionBaseLine>
+</configStruct>
